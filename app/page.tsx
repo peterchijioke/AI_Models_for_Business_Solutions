@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <div className="grid w-full max-h-screen">
+    <div className="grid w-full max-h-screen bg-white">
       <Banner />
       <LogoScroller />
       <HeroSection />

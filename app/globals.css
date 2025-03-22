@@ -8,7 +8,7 @@
 }
 
 :root {
-  --primary: oklch(65.39% 0.13 262.91);
+  --primary: oklch(18.5% 0.03 262.91);
   --primary-foreground: oklch(0.98 0.02 262.24);
   --secondary: oklch(0.96 0.01 262.24);
   --secondary-foreground: oklch(0.26 0.05 268.58);
@@ -43,8 +43,9 @@
   --sidebar-ring: oklch(0.708 0 0);
 }
 
+
 .dark {
-  --primary: oklch(65.39% 0.13 262.91);
+   --primary: oklch(18.5% 0.03 262.91);
   --primary-foreground: oklch(0.26 0.05 268.5);
   --secondary: oklch(0.35 0.06 258.3);
   --secondary-foreground: oklch(0.98 0.02 262.2);

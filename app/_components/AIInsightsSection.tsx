@@ -78,7 +78,7 @@ export default function AIInsightsSection() {
         ))}
       </div>
 
-      <Carousel className="w-full mt-6 max-w-[100%] p-0 m-0 sm:max-w-[100%]">
+      <Carousel className="w-full mt-6 max-w-[100%] bg-white p-0 m-0 sm:max-w-[100%]">
         <CarouselContent className="flex w-full">
           {TABS.map((item, index) => (
             <CarouselItem

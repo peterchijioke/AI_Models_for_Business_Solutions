@@ -13,10 +13,6 @@ const companies = [
   { name: "Circooles", logo: "/comlogo2.svg" },
   { name: "Catalog", logo: "/Logomark.svg" },
   { name: "Quotie", logo: "/comlogo3.svg" },
-  { name: "Layers", logo: "/Logomark.svg" },
-  { name: "Sisyphus", logo: "/comlogo.svg" },
-  { name: "Circooles", logo: "/comlogo2.svg" },
-  { name: "Catalog", logo: "/Logomark.svg" },
 ];
 export default function LogoScroller() {
   return (

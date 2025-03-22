@@ -61,7 +61,6 @@ export default function AIInsightsSection() {
 
   return (
     <section className="w-full hidden md:flex flex-col items-center py-12">
-      {/* Tab Navigation */}
       <div className="flex gap-2 sm:gap-4 mb-8 border border-[#E4E4E7] px-4 sm:px-6  rounded-xl p-1 overflow-x-auto no-scrollbar">
         {TABS.map((tab, index) => (
           <Button
@@ -79,7 +78,6 @@ export default function AIInsightsSection() {
         ))}
       </div>
 
-      {/* Carousel Section */}
       <Carousel className="w-full mt-6 max-w-[100%] p-0 m-0 sm:max-w-[100%]">
         <CarouselContent className="flex w-full">
           {TABS.map((item, index) => (
@@ -93,7 +91,6 @@ export default function AIInsightsSection() {
               }}
             >
               <div className="flex flex-col-reverse md:flex-row rounded-2xl overflow-hidden h-full">
-                {/* Left: Text Content */}
                 <div className="flex-1 p-4 sm:p-6 md:p-10 flex flex-col justify-center">
                   <p className="text-[#828282] text-sm sm:text-base font-medium">
                     {item.label}
@@ -106,7 +103,6 @@ export default function AIInsightsSection() {
                   </Button>
                 </div>
 
-                {/* Right: Image */}
                 <div className="flex-1 w-full h-[250px] sm:h-[300px] md:h-auto rounded-r-2xl overflow-hidden">
                   <AppImage
                     src={item.image}

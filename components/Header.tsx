@@ -30,31 +30,31 @@ const Header = () => {
 
       <nav className="hidden md:flex space-x-6 ml-36">
         <Link
-          href="/models"
+          href="#"
           className="hover:text-white text-sm transition-colors font-medium"
         >
           Models
         </Link>
         <Link
-          href="/pricing"
+          href="#"
           className="hover:text-white text-sm transition-colors font-medium"
         >
           Pricing
         </Link>
         <Link
-          href="/about"
+          href="#"
           className="hover:text-white text-sm transition-colors font-medium"
         >
           About Us
         </Link>
         <Link
-          href="/contact"
+          href="#"
           className="hover:text-white text-sm transition-colors font-medium"
         >
           Contact Us
         </Link>
         <Link
-          href="/custom-models"
+          href="#"
           className="hover:text-white text-sm transition-colors font-medium"
         >
           Custom Models
@@ -93,31 +93,31 @@ const Header = () => {
             transition={{ duration: 0.3, ease: "easeInOut" }}
           >
             <Link
-              href="/models"
+              href="#"
               className="hover:text-white transition-colors font-medium text-sm"
             >
               Models
             </Link>
             <Link
-              href="/pricing"
+              href="#"
               className="hover:text-white transition-colors font-medium text-sm"
             >
               Pricing
             </Link>
             <Link
-              href="/about"
+              href="#"
               className="hover:text-white transition-colors font-medium text-sm"
             >
               About Us
             </Link>
             <Link
-              href="/contact"
+              href="#"
               className="hover:text-white transition-colors font-medium text-sm"
             >
               Contact Us
             </Link>
             <Link
-              href="/custom-models"
+              href="#"
               className="hover:text-white transition-colors font-medium text-sm"
             >
               Custom Models

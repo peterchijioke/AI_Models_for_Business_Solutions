@@ -61,7 +61,7 @@ export default function AIInsightsSection() {
 
   return (
     <section className="w-full hidden md:flex flex-col bg-white items-center py-12">
-      <div className="flex gap-2 sm:gap-4 mb-8 border border-[#E4E4E7] px-4 sm:px-6  rounded-xl p-1 overflow-x-auto no-scrollbar">
+      <div className="flex gap-2 sm:gap-4 mb-8 border border-[#E4E4E7]  rounded-xl p-1 overflow-x-auto no-scrollbar">
         {TABS.map((tab, index) => (
           <Button
             size="sm"
